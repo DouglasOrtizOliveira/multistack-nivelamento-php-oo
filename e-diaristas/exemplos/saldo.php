@@ -39,7 +39,7 @@ class Diarista implements Saldo
 }
 
 
-function realizaAcaoDeDepositar(Saldo $pessoa, $valor) 
+function realizaAcaoDeDepositar(Saldo $pessoa, $valor): void
 {
     $pessoa->depositar($valor);
 }
